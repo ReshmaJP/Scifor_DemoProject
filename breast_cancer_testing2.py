@@ -78,9 +78,8 @@ st.subheader("Variable Information")
 st.dataframe(df_selected_features)
 
 # Display the target values 0,1
-st.text('In the Dataset, Target Values are Classified as:')
-st.text('Target 0: Benign (Not Cancerous)')
-st.text('Target 1: Malignant (Cancerous)')
+st.text('These are the Ten real-valued features that are computed for each cell nucleus')
+st.text('Based on these features output results are classified as Benign (Not Cancerous) and Malignant (Cancerous)')
 
 # Display model training results
 st.subheader("Model Training Results")
